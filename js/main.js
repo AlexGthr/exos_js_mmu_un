@@ -14,7 +14,7 @@ function getInfosElement(element) {
     const height = " - Height : " + style.height + "\n";
     const width = " - Width : " + style.width + "\n";
     const display = " - Display : " + style.display + "\n";
-    const fontFamily = " - Font Family : " + style.fontFamily + "\n";
+    const fontFamily = " - Font Family : " + style.fontFamily + " (" + style.fontSize + ")\n";
 
     // On déclare une variable qui contient le tout
     textAlert = className + backgroundColor + color + height + width + display + fontFamily;
