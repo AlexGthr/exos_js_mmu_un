@@ -1,0 +1,18 @@
+
+.carre {
+
+    background-color: rgb(136, 174, 136);
+    color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
