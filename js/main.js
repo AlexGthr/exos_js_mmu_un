@@ -5,16 +5,16 @@ let element = document.querySelector('.carre')
 function getInfosElement(element) {
 
     // On crée une variable qui va contenir le style de notre élément
-    let style = getComputedStyle(element, null)
+    let style = getComputedStyle(element)
 
     // Puis on déclare des variables par rapport au style
-    const className = "Class : " + element.className + "\n";
-    const backgroundColor = "- Background color : " + style.backgroundColor + "\n";
-    const color = "- Color : " + style.color + "\n";
-    const height = " - Height : " + style.height + "\n";
-    const width = " - Width : " + style.width + "\n";
-    const display = " - Display : " + style.display + "\n";
-    const fontFamily = " - Font Family : " + style.fontFamily + " (" + style.fontSize + ")\n";
+    const className = `Class : ${element.className} \n`;
+    const backgroundColor = `- Background color : ${style.backgroundColor} \n`;
+    const color = `- Color : ${style.color} \n`;
+    const height = ` - Height : ${style.height} \n`;
+    const width = ` - Width : ${style.width} \n`;
+    const display = ` - Display : ${style.display} \n`;
+    const fontFamily = ` - Font Family : " + style.fontFamily ${style.fontSize})\n`;
 
     // On déclare une variable qui contient le tout
     textAlert = className + backgroundColor + color + height + width + display + fontFamily;
